@@ -1,0 +1,43 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : fpnew_top
+Version: S-2021.06-SP4
+Date   : Mon Dec 19 16:42:32 2022
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[0].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/out_pipe_valid_q_reg[1]
+              (rising edge-triggered flip-flop)
+  Endpoint: result_o[31]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fpnew_top          5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[0].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/out_pipe_valid_q_reg[1]/CK (SDFFS_X1)
+                                                          0.00       0.00 r
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[0].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/out_pipe_valid_q_reg[1]/QN (SDFFS_X1)
+                                                          0.14       0.14 r
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[0].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/out_valid_o (fpnew_fma_0_00000003_3__logic_Z_1yB___logic_Z_1yB_)
+                                                          0.00       0.14 r
+  U48/Z (CLKBUF_X1)                                       0.16       0.30 r
+  U79/ZN (AND2_X1)                                        0.08       0.38 r
+  result_o[31] (out)                                      0.02       0.41 r
+  data arrival time                                                  0.41
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

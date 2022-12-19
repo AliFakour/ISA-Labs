@@ -1,0 +1,43 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : fpnew_top
+Version: S-2021.06-SP4
+Date   : Mon Dec 19 16:43:47 2022
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[0].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/out_pipe_valid_q_reg[1]
+              (rising edge-triggered flip-flop)
+  Endpoint: in_ready_o (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fpnew_top          5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[0].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/out_pipe_valid_q_reg[1]/CK (SDFFR_X2)
+                                                          0.00       0.00 r
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[0].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/out_pipe_valid_q_reg[1]/QN (SDFFR_X2)
+                                                          0.23       0.23 r
+  U1185/ZN (NOR3_X1)                                      0.05       0.28 f
+  U1627/ZN (INV_X1)                                       0.04       0.32 r
+  U1191/ZN (NOR2_X1)                                      0.03       0.35 f
+  U1199/ZN (OR2_X1)                                       0.09       0.43 f
+  U1233/ZN (INV_X1)                                       0.18       0.61 r
+  in_ready_o (out)                                        0.06       0.67 r
+  data arrival time                                                  0.67
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1
