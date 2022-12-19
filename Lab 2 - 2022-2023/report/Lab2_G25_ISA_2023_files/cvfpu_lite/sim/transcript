@@ -1,0 +1,225 @@
+# //  Questa Sim-64
+# //  Version 2020.4 linux_x86_64 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+do script/sim.do
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:39:14 on Dec 19,2022
+# vlog -reportprogress 300 -work ./work ../src/cf_math_pkg.sv 
+# -- Compiling package cf_math_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 14:39:15 on Dec 19,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:39:15 on Dec 19,2022
+# vlog -reportprogress 300 -work ./work ../src/lzc.sv 
+# -- Compiling module lzc
+# -- Importing package cf_math_pkg
+# ** Warning: ../src/lzc.sv(66): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: ../src/lzc.sv(66): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: ../src/lzc.sv(67): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# 
+# Top level modules:
+# 	lzc
+# End time: 14:39:15 on Dec 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 3
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:39:15 on Dec 19,2022
+# vlog -reportprogress 300 -work ./work ../src/rr_arb_tree.sv 
+# -- Compiling module rr_arb_tree
+# 
+# Top level modules:
+# 	rr_arb_tree
+# End time: 14:39:16 on Dec 19,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:39:16 on Dec 19,2022
+# vlog -reportprogress 300 -work ./work ../src/fpnew_pkg.sv 
+# -- Compiling package fpnew_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 14:39:17 on Dec 19,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:39:17 on Dec 19,2022
+# vlog -reportprogress 300 -work ./work ../src/fpnew_classifier.sv 
+# -- Compiling module fpnew_classifier
+# -- Importing package fpnew_pkg
+# ** Warning: ../src/fpnew_classifier.sv(22): (vlog-13314) Defaulting port 'operands_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ../src/fpnew_classifier.sv(54): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: ../src/fpnew_classifier.sv(55): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: ../src/fpnew_classifier.sv(56): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: ../src/fpnew_classifier.sv(57): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: ../src/fpnew_classifier.sv(58): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: ../src/fpnew_classifier.sv(59): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: ../src/fpnew_classifier.sv(60): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: ../src/fpnew_classifier.sv(61): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: ../src/fpnew_classifier.sv(62): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: ../src/fpnew_classifier.sv(64): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: ../src/fpnew_classifier.sv(65): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: ../src/fpnew_classifier.sv(66): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: ../src/fpnew_classifier.sv(67): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: ../src/fpnew_classifier.sv(68): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: ../src/fpnew_classifier.sv(69): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: ../src/fpnew_classifier.sv(70): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: ../src/fpnew_classifier.sv(71): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# 
+# Top level modules:
+# 	fpnew_classifier
+# End time: 14:39:17 on Dec 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 18
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:39:18 on Dec 19,2022
+# vlog -reportprogress 300 -work ./work ../src/fpnew_rounding.sv 
+# -- Compiling module fpnew_rounding
+# -- Importing package fpnew_pkg
+# 
+# Top level modules:
+# 	fpnew_rounding
+# End time: 14:39:18 on Dec 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:39:18 on Dec 19,2022
+# vlog -reportprogress 300 -work ./work ../src/fpnew_fma.sv 
+# -- Compiling module fpnew_fma
+# -- Importing package fpnew_pkg
+# ** Warning: ../src/fpnew_fma.sv(31): (vlog-13314) Defaulting port 'operands_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# 
+# Top level modules:
+# 	fpnew_fma
+# End time: 14:39:19 on Dec 19,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:39:19 on Dec 19,2022
+# vlog -reportprogress 300 -work ./work ../src/fpnew_opgroup_fmt_slice.sv 
+# -- Compiling module fpnew_opgroup_fmt_slice
+# -- Importing package fpnew_pkg
+# ** Warning: ../src/fpnew_opgroup_fmt_slice.sv(32): (vlog-13314) Defaulting port 'operands_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ../src/fpnew_opgroup_fmt_slice.sv(97): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: ../src/fpnew_opgroup_fmt_slice.sv(97): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: ../src/fpnew_opgroup_fmt_slice.sv(98): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# 
+# Top level modules:
+# 	fpnew_opgroup_fmt_slice
+# End time: 14:39:20 on Dec 19,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 4
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:39:20 on Dec 19,2022
+# vlog -reportprogress 300 -work ./work ../src/fpnew_opgroup_block.sv 
+# -- Compiling module fpnew_opgroup_block
+# -- Importing package fpnew_pkg
+# ** Warning: ../src/fpnew_opgroup_block.sv(34): (vlog-13314) Defaulting port 'operands_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ../src/fpnew_opgroup_block.sv(35): (vlog-13314) Defaulting port 'is_boxed_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# 
+# Top level modules:
+# 	fpnew_opgroup_block
+# End time: 14:39:20 on Dec 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:39:20 on Dec 19,2022
+# vlog -reportprogress 300 -work ./work ../src/fpnew_top.sv 
+# -- Compiling module fpnew_top
+# -- Importing package fpnew_pkg
+# ** Warning: ../src/fpnew_top.sv(29): (vlog-13314) Defaulting port 'operands_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ../src/fpnew_top.sv(104): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: ../src/fpnew_top.sv(104): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: ../src/fpnew_top.sv(105): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# 
+# Top level modules:
+# 	fpnew_top
+# End time: 14:39:20 on Dec 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:39:21 on Dec 19,2022
+# vcom -reportprogress 300 -work ./work ../tb/clk_gen.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity clk_gen
+# -- Compiling architecture beh of clk_gen
+# End time: 14:39:21 on Dec 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:39:21 on Dec 19,2022
+# vcom -reportprogress 300 -work ./work ../tb/data_gen.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity data_gen
+# -- Compiling architecture beh of data_gen
+# End time: 14:39:21 on Dec 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:39:21 on Dec 19,2022
+# vlog -reportprogress 300 -work ./work ../tb/tb_fpnew_top_rtl.sv 
+# -- Compiling module tb_fpnew_top
+# -- Importing package fpnew_pkg
+# 
+# Top level modules:
+# 	tb_fpnew_top
+# End time: 14:39:22 on Dec 19,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim work.tb_fpnew_top -t 10ps -voptargs="+acc" 
+# Start time: 14:39:22 on Dec 19,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: ../src/fpnew_fma.sv(31): (vopt-13314) Defaulting port 'operands_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ../src/fpnew_top.sv(29): (vopt-13314) Defaulting port 'operands_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ../src/fpnew_opgroup_block.sv(34): (vopt-13314) Defaulting port 'operands_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ../src/fpnew_opgroup_block.sv(35): (vopt-13314) Defaulting port 'is_boxed_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ../src/fpnew_opgroup_block.sv(34): (vopt-13314) Defaulting port 'operands_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ../src/fpnew_opgroup_block.sv(35): (vopt-13314) Defaulting port 'is_boxed_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ../src/fpnew_opgroup_block.sv(34): (vopt-13314) Defaulting port 'operands_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ../src/fpnew_opgroup_block.sv(35): (vopt-13314) Defaulting port 'is_boxed_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ../src/fpnew_opgroup_block.sv(34): (vopt-13314) Defaulting port 'operands_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ../src/fpnew_opgroup_block.sv(35): (vopt-13314) Defaulting port 'is_boxed_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ../src/fpnew_opgroup_fmt_slice.sv(32): (vopt-13314) Defaulting port 'operands_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ../src/fpnew_classifier.sv(22): (vopt-13314) Defaulting port 'operands_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=12.
+# Loading sv_std.std
+# Loading work.fpnew_pkg(fast)
+# Loading work.tb_fpnew_top(fast)
+# Loading work.fpnew_top(fast)
+# Loading work.fpnew_opgroup_block(fast)
+# Loading work.fpnew_opgroup_fmt_slice(fast)
+# Loading work.fpnew_fma(fast)
+# Loading work.fpnew_classifier(fast)
+# Loading work.cf_math_pkg(fast)
+# Loading work.lzc(fast)
+# Loading work.fpnew_rounding(fast)
+# Loading work.rr_arb_tree(fast)
+# Loading work.lzc(fast__1)
+# Loading work.fpnew_opgroup_block(fast__1)
+# Loading work.rr_arb_tree(fast__1)
+# Loading work.fpnew_opgroup_block(fast__2)
+# Loading work.rr_arb_tree(fast__2)
+# Loading work.fpnew_opgroup_block(fast__3)
+# Loading work.rr_arb_tree(fast__3)
+# Loading work.rr_arb_tree(fast__4)
+# Loading work.lzc(fast__2)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.clk_gen(beh)#1
+# Loading work.data_gen(beh)#1
+# Causality operation skipped due to absence of debug database file
+# End time: 14:44:21 on Dec 19,2022, Elapsed time: 0:04:59
+# Errors: 0, Warnings: 12

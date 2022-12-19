@@ -1,0 +1,17 @@
+if [file exists work] { vdel -all -lib work }
+vlib work
+
+vcom -work ./work ../tb/clk_gen.vhd
+vcom -work ./work ../tb/data_maker_new.vhd
+vcom -work ./work ../tb/data_sink.vhd
+
+vlog -work ./work ../netlist/filterBlock.v
+vlog -work ./work ../tb/tb_fir.v
+
+vsim -L /eda/dk/nangate45/verilog/qsim2020.4 work.tb_iir
+vsim -L /eda/dk/nangate45/verilog/qsim2020.4 -sdftyp /tb_iir/UUT=../netlist/filterBlock.sdf work.tb_iir
+
+vcd file ../vcd/filterBlock_syn.vcd
+vcd add /tb_iir/UUT/*
+
+run 2 us
